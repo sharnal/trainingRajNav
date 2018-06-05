@@ -1,0 +1,11 @@
+1. first populate the root-creds file with your IAM creds
+2. execute the following
+source root.env
+sh -x setupaws.sh
+source kops.env ( this file will be created by previous script )
+sh -x kops.sh
+
+TODELETE
+
+source root.env
+sh -x delete.sh

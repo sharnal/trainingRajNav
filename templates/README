@@ -1,0 +1,11 @@
+TO CREATE:
+
+1. First create the storage class: kubectl create -f storageclass-fast-aws.yaml
+2. Next create the claim: kubectl create -f mongodb-pvc-aws.yaml
+3. Next create replicaset: kubectl create -f mongodb-rs-pv.yaml
+
+
+TO DELETE: ( use word "delete" instead of "create" in above commands )
+1. first delete replicaset
+2. then delete claim
+3. then delete storage class
