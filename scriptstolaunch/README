@@ -2,7 +2,7 @@
 2. execute the following
 source root.env
 sh -x setupaws.sh
-source kops.env ( this file will be created by previous script )
+source kops.env
 sh -x kops.sh
 
 TODELETE
