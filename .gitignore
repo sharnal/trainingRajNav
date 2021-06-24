@@ -2,4 +2,4 @@
 .idea
 *.log
 tmp/
-root-creds
+scriptstolaunch/root-creds
